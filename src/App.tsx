@@ -14,12 +14,12 @@ const projects = [
     stack: ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL", "Tailwind"],
   },
   {
-    title: "Personal Project",
-    description:
-      "Proyecto personal público para mostrar habilidades full stack, buenas prácticas, diseño de interfaz, consumo de APIs y lógica backend.",
-    role: "Full Stack Developer",
-    stack: ["React", "TypeScript", "FastAPI", "PostgreSQL"],
-  },
+  title: "Modyra: Personal Project",
+  description:
+    "Modyra is a work-in-progress mobile-first daily check-in app to track mood, energy, habits and personal notes, built as a full stack project with React and FastAPI.",
+  role: "Full Stack Developer",
+  stack: ["React", "TypeScript", "FastAPI", "PostgreSQL"],
+},
 ];
 
 const skills = [
