@@ -2,14 +2,14 @@ const projects = [
   {
     title: "Metria AI",
     description:
-      "Plataforma de datos con inteligencia artificial que permite a usuarios consultar información de negocio en lenguaje natural y visualizar resultados mediante dashboards, gráficos y reportes.",
+      "I participated as a Founder Engineer in the development of the AI-powered data platform that allows users to query business information in natural language and visualize results through dashboards, graphs, and reports.",
     role: "Full Stack Developer",
     stack: ["React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "AI"],
   },
   {
     title: "Bollek",
     description:
-      "Sistema de gestión de stock para empresas uruguayas, con control de movimientos, proveedores, órdenes, alertas y reportes.",
+      "Stock management system for a logistics company in Uruguay, with control of movements, suppliers, orders, alerts and reports.",
     role: "Full Stack Developer Freelance",
     stack: ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL", "Tailwind"],
   },
