@@ -2,21 +2,21 @@ const projects = [
   {
     title: "Metria AI",
     description:
-      "I participated as a Founder Engineer in the development of the AI-powered data platform that allows users to query business information in natural language and visualize results through dashboards, graphs, and reports.",
+      "I work as a Full Stack Developer on an AI-powered data platform that allows users to query business information in natural language and visualize results through dashboards, charts and reports.",
     role: "Full Stack Developer",
-    stack: ["React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "AI"],
+    stack: ["Python", "FastAPI", "React", "TypeScript", "PostgreSQL", "LangGraph", "OpenAI API"],
   },
   {
     title: "Bollek",
     description:
       "Stock management system for a logistics company in Uruguay, with control of movements, suppliers, orders, alerts and reports.",
-    role: "Full Stack Developer Freelance",
+    role: "Full Stack Developer · Freelance",
     stack: ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL", "Tailwind"],
   },
   {
-  title: "Modyra: Personal Project",
+  title: "Modyra · Personal Project",
   description:
-    "Modyra is a work-in-progress mobile-first daily check-in app to track mood, energy, habits and personal notes, built as a full stack project with React and FastAPI.",
+    "Modyra is a work-in-progress daily check-in app to track mood, energy, habits and personal notes, built as a full stack project with React and FastAPI.",
   role: "Full Stack Developer",
   stack: ["React", "TypeScript", "FastAPI", "PostgreSQL"],
 },
@@ -40,7 +40,6 @@ const skills = [
 function App() {
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
-      {/* Agregado: navbar simple para navegar por la página */}
       <header className="sticky top-0 z-10 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <a href="#home" className="font-semibold tracking-tight">
@@ -61,21 +60,19 @@ function App() {
         </nav>
       </header>
 
-      {/* Agregado: sección principal de presentación */}
       <section id="home" className="mx-auto max-w-6xl px-6 py-24">
         <div className="max-w-3xl">
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-cyan-400">
-            Full Stack Developer
+            Software Engineer · Full Stack Developer
           </p>
 
           <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-            I build web applications with React, Python and AI-powered products.
+            I enjoy turning ideas and data into useful software.
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-            I’m a Systems Engineer from Uruguay, focused on building clean,
-            functional and scalable web products that combine user interfaces,
-            data visualization and backend logic.
+            I’m a Systems Engineer from Uruguay, currently working with React, TypeScript,
+  Python and FastAPI, with experience building features across the full product stack.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -96,7 +93,6 @@ function App() {
         </div>
       </section>
 
-      {/* Agregado: sección sobre mí */}
       <section id="about" className="border-t border-slate-800 bg-slate-900/40">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-[1fr_1.3fr]">
           <div>
@@ -115,9 +111,7 @@ function App() {
             </p>
 
             <p>
-              My current focus is improving my full stack profile while growing
-              in frontend development, backend fundamentals and AI-powered
-              product development.
+              I’m especially interested in full-stack development and AI engineering, while staying open to roles where I can contribute, learn and grow as a software engineer.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -134,7 +128,6 @@ function App() {
         </div>
       </section>
 
-      {/* Agregado: sección de proyectos */}
       <section id="projects" className="mx-auto max-w-6xl px-6 py-20">
         <div className="mb-10">
           <p className="text-sm font-medium uppercase tracking-[0.3em] text-cyan-400">
@@ -172,7 +165,6 @@ function App() {
         </div>
       </section>
 
-      {/* Agregado: sección de contacto */}
       <section id="contact" className="border-t border-slate-800 bg-slate-900/40">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <p className="text-sm font-medium uppercase tracking-[0.3em] text-cyan-400">
@@ -216,7 +208,6 @@ function App() {
         </div>
       </section>
 
-      {/* Agregado: footer simple */}
       <footer className="border-t border-slate-800 px-6 py-8 text-center text-sm text-slate-500">
         © 2026 Romina Giaccio. Built with React, Vite and Tailwind.
       </footer>
