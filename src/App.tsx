@@ -77,12 +77,19 @@ function App() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="#projects"
+              href={import.meta.env.VITE_LINKEDIN_URL}
+              target="_blank"
+              rel="noreferrer"
               className="rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 hover:bg-cyan-300"
+            >
+              Connect on LinkedIn
+            </a>
+            <a
+              href="#projects"
+              className="rounded-full border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-100 hover:border-slate-400"
             >
               View projects
             </a>
-
             <a
               href="#contact"
               className="rounded-full border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-100 hover:border-slate-400"
